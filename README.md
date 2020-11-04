@@ -5,3 +5,6 @@ Test de Flex !
 Lien du site : https://gaetanarinfo.github.io/Flex_Site/
 
 By Gaëtan Seigneur
+# Flex_Site
+
+Mode de développement
