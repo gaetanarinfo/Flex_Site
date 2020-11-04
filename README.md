@@ -1,5 +1,7 @@
-#Flex_Site
+Flex_Site
 
 Test de Flex !
 
-Lien : https://gaetanarinfo.github.io/Flex_Site/
+Lien du site : https://gaetanarinfo.github.io/Flex_Site/
+
+By Gaëtan Seigneur
