@@ -46,19 +46,40 @@ p {
 
 /* Grand Ecran */
 
-@media all and (min-width: 800px) {
-    .navigable-bar {
-        top: 0;
-        width: 100%;
-        position: fixed;
-        height: 10vh;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    .navigable-bar h3 {
-        padding: 26px;
-    }
+.navigable-bar {
+    top: 0;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.navigable-bar ul {
+    margin: 0;
+}
+
+.navigable-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    padding: 22px;
+}
+
+.navigable-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigable-bar ul li a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.562);
 }
 
 
@@ -68,24 +89,14 @@ p {
     .navigable-bar {
         justify-content: space-around;
     }
-    .navigable-bar h3 {
-        padding: 0.5em;
-        font-size: 10px;
-        display: block;
-    }
 }
 
 
 /* Petit Ecran */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
     .navigable-bar {
-        flex-direction: column;
-    }
-    .navigable-bar h3 {
-        padding: 0.5em;
-        font-size: 10px;
-        display: block;
+        display: none;
     }
 }
 
