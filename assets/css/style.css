@@ -361,3 +361,7 @@ h1,
 h2 {
     margin: 0;
 }
+
+.navigable-bar-galerie {
+    position: relative !important;
+}
