@@ -54,7 +54,6 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -71,7 +70,7 @@ p {
 
 @media all and (max-width: 500px) {
     .navigable-bar {
-        justify-content: space-arround;
+        flex-direction: column;
     }
 }
 
