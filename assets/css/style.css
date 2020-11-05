@@ -40,13 +40,39 @@ p {
 
 /* NAVBAR */
 
+
+/* Taille d'écran */
+
+
+/* Grand Ecran */
+
 .navigable-bar {
     top: 0;
     width: 100%;
     position: fixed;
     height: 10vh;
-    display: flow-root;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     grid-template-columns: 1fr 1fr;
+}
+
+
+/* Moyen Ecran */
+
+@media all and (max-width: 800px) {
+    .navigable-bar {
+        justify-content: space-arround;
+    }
+}
+
+
+/* Petit Ecran */
+
+@media all and (max-width: 500px) {
+    .navigable-bar {
+        justify-content: space-arround;
+    }
 }
 
 .navigable-bar h3 {
