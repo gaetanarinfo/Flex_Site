@@ -61,7 +61,12 @@ p {
 
 @media all and (max-width: 800px) {
     .navigable-bar {
-        justify-content: space-arround;
+        justify-content: space-around;
+    }
+    .navigable-bar h3 {
+        padding: 0.5em;
+        font-size: 10px;
+        display: block;
     }
 }
 
