@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: 101% 103%;
     margin: 0;
     padding: 0;
     display: block;
@@ -28,7 +29,7 @@ header {
 .content .main,
 img {
     margin: 15px 0 15px 0;
-    width: 100%;
+    width: 250px;
 }
 
 h1,
