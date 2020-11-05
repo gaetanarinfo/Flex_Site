@@ -1,9 +1,19 @@
 body {
-    background-image: url(../image/wallpaper1.jpg);
+    background-image: url(../image/wallpaper1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
 }
 
 .img-home-title {
@@ -18,7 +28,7 @@ body {
 .content .main,
 img {
     margin: 15px 0 15px 0;
-    width: 326px;
+    width: 100%;
 }
 
 h1,
@@ -114,6 +124,8 @@ p {
     }
     .navigable-bar-min {
         display: block;
+        margin: 21px 0px 21px 0px !important;
+        padding: 0;
     }
     .naviglabe-bar-max {
         display: none;
@@ -242,7 +254,15 @@ p {
 /* FOOTER */
 
 footer {
-    min-height: 100px;
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.container-footer {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
 }
 
 footer h1 {
