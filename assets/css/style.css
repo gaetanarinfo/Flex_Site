@@ -60,6 +60,10 @@ p {
     justify-content: center;
 }
 
+.navigable-bar-min {
+    display: none;
+}
+
 .navigable-bar ul {
     margin: 0;
 }
@@ -94,9 +98,40 @@ p {
 
 /* Petit Ecran */
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
     .navigable-bar {
+        top: 0;
+        height: 12%;
+        width: 100%;
+        position: fixed;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+    .navigable-bar-min {
+        display: block;
+    }
+    .naviglabe-bar-max {
         display: none;
+    }
+    .navigable-bar ul li i {
+        font-size: 12px;
+        color: white;
+    }
+    .navigable-bar ul li a {
+        font-size: 12px;
+        color: white;
+        font-weight: 600;
+    }
+    .navigable-bar ul li {
+        list-style-type: none;
+        font-size: 22px;
+        color: white;
+        padding: 0px;
     }
 }
 
