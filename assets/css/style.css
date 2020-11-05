@@ -276,3 +276,88 @@ footer {
 footer h1 {
     padding-top: 28px;
 }
+
+
+/* Galerie */
+
+.fill-height-or-more {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100%;
+}
+
+.fill-height-or-more>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fill-height-or-more .item-1 {
+    background-color: rgb(107, 142, 207);
+    padding: 1rem;
+}
+
+.fill-height-or-more .item-2 {
+    background-color: rgb(93, 134, 211);
+    padding: 1rem;
+}
+
+.fill-height-or-more .item-3 {
+    background-color: rgb(86, 129, 209);
+    padding: 1rem;
+}
+
+.fill-height-or-more .item-4 {
+    background-color: rgb(75, 103, 156);
+    padding: 1rem;
+}
+
+.fill-height-or-more,
+h1,
+h2 {
+    margin: 0 0 0 0;
+}
+
+
+/* Galerie 2 */
+
+.fill-height-or-more-2 {
+    display: flex;
+    flex-flow: wrap-reverse;
+    min-height: 100%;
+    width: 100%;
+}
+
+.fill-height-or-more-2>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fill-height-or-more-2 .item-1 {
+    background-color: rgb(107, 142, 207);
+    padding: 1rem;
+}
+
+.fill-height-or-more-2 .item-2 {
+    background-color: rgb(93, 134, 211);
+    padding: 1rem;
+}
+
+.fill-height-or-more-2 .item-3 {
+    background-color: rgb(86, 129, 209);
+    padding: 1rem;
+}
+
+.fill-height-or-more-2 .item-4 {
+    background-color: rgb(75, 103, 156);
+    padding: 1rem;
+}
+
+.fill-height-or-more-2,
+h1,
+h2 {
+    margin: 0;
+}
