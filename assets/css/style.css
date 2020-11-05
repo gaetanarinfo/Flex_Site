@@ -112,9 +112,9 @@ p {
 @media all and (max-width: 900px) {
     .navigable-bar {
         top: 0;
-        height: 12%;
+        height: 7%;
         width: 100%;
-        position: fixed;
+        position: relative;
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
@@ -123,17 +123,23 @@ p {
         margin: 0;
         justify-content: center;
     }
+    .navigable-bar-div {
+        position: relative;
+        margin: 6px;
+        padding: 0;
+    }
     .navigable-bar-min {
         display: block;
-        margin: 21px 0px 21px 0px !important;
+        margin-top: -8px !important;
         padding: 0;
     }
     .naviglabe-bar-max {
         display: none;
     }
     .navigable-bar ul li i {
-        font-size: 12px;
+        font-size: 13px;
         color: white;
+        padding-right: 2px;
     }
     .navigable-bar ul li a {
         font-size: 12px;
@@ -145,6 +151,7 @@ p {
         font-size: 22px;
         color: white;
         padding: 0px;
+        margin: 19px;
     }
 }
 
